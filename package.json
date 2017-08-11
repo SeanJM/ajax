@@ -1,0 +1,34 @@
+{
+  "name": "ajax",
+  "version": "1.0.0",
+  "description": "An Ajax utility",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV='development' webpack --watch",
+    "build": "NODE_ENV='production' webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanJM/ajax.git"
+  },
+  "keywords": [
+    "ajax",
+    "promise"
+  ],
+  "author": "Sean MacIsaac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanJM/ajax/issues"
+  },
+  "homepage": "https://github.com/SeanJM/ajax#readme"
+}
